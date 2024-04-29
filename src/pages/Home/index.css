@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+}
+
+.menu p {
+    margin-left: 50px;
+}
