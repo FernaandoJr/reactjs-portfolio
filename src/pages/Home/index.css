@@ -7,10 +7,8 @@
 
 .menu{
     display: flex;
-    flex-direction: row;
-    width: 50vw;
 }
 
 .menu p {
-    margin-left: 50px;
+    margin-left: 2.5rem;
 }
