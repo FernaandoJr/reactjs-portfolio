@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #951ae6;
+        filter: url(#filter);
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #e6e6e6;
+        filter: url(#filter-2);
+      }
+    </style>
+    <filter id="filter" x="352.281" y="60.281" width="647.719" height="939.939" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="352.281" y="60.2812" width="647.719" height="939.939" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNjQ3LjcxOSIgaGVpZ2h0PSI5MzkuOTM5IiB2aWV3Qm94PSIwIDAgNjQ3LjcxOSA5MzkuOTM5Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9IjMyMy44NTkiIHkxPSI5MzkuOTM5IiB4Mj0iMzIzLjg1OSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM2ZjExZTciLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjUxMSIgc3RvcC1jb2xvcj0iI2E1MWVlNiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNiYjJkZmYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjY0Ny43MTkiIGhlaWdodD0iOTM5LjkzOSIvPgo8L3N2Zz4K"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="0.969" y="0" width="647.719" height="939.969" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#e6e6e6"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="J" class="cls-1" d="M764.02,60.268c-15.063,0-24.1,8.034-26.11,23.1l-94.4,871.673c-1,9.038-8.034,15.064-17.072,15.064s-14.06-6.026-13.056-15.064L654.559,580.46c2.008-14.059-12.051-26.11-26.11-26.11H371.366c-11.047,0-19.081,8.034-19.081,19.08V981.148c0,11.047,8.034,19.082,19.081,19.082H861.431c83.351,0,138.579-55.234,138.579-138.585V79.348c0-11.047-8.029-19.08-19.076-19.08H764.02Z"/>
+  <path id="F" class="cls-2" d="M233.941,939.976c15.064,0,24.1-8.034,26.11-23.1L300.221,542.3c1-11.047,10.042-18.076,21.088-18.076H603.5c9.039,0,15.064-6.026,15.064-15.064S612.537,494.1,603.5,494.1H324.322c-11.046,0-18.076-7.03-17.072-18.076l47.2-430.816c1-9.038,8.034-15.063,17.072-15.063s14.059,6.025,13.055,15.063L341.394,437.86c-2.008,14.059,12.051,26.11,26.11,26.11H629.609c11.046,0,19.08-8.034,19.08-19.081V19.1c0-11.047-8.034-19.08-19.08-19.08H20.04C8.994,0.015.96,8.049,0.96,19.1V920.9c0,11.047,8.034,19.081,19.08,19.081h213.9Z"/>
+</svg>

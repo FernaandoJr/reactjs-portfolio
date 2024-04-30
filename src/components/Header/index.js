@@ -1,15 +1,15 @@
 import { Link } from 'react-router-dom'
-import "./index.css"
+// import { ReactComponent as SvgLogo } from '../../media/svg/Logo.svg';
+import styles from './header.module.css'
 
 function Header(){
     return(
-        <div className="header">
-            <p>FernaandoJr</p>
-            <div className="menu">
-                    <p><Link to="/">Home</Link></p>
-                    <p><Link to="/projects">Projetos</Link></p>
-                    <p><Link to="/about">Sobre Mim</Link></p>
-                    <p><Link to="/contact">Contato</Link></p>
+        <div className={styles.header}>
+            <div className={styles.menu}>
+                    <Link className={styles.menu_item} to="/">Home</Link>
+                    <Link className={styles.menu_item} to="/projects">Projetos</Link>
+                    <Link className={styles.menu_item} to="/about">Sobre Mim</Link>
+                    <Link className={styles.menu_item} to="/contact">Contato</Link>
             </div>
         </div>
     )
