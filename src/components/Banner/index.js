@@ -36,7 +36,9 @@ function Banner() {
             <Cursor cursorStyle="|" />
           </span>
         </h3>
+        <div className={`${styles.container_subtitle}`}>
         <h3 className={`${styles.subtitle}`}>{ocupacao}</h3>
+        </div>
       </div>
       <video src={BannerVideo} autoPlay loop muted className={styles.videobg} />
     </div>

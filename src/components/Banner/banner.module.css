@@ -23,10 +23,17 @@
         font-weight: bold;
         animation: textShine 5s ease-in-out infinite alternate;
 }
+.container_subtitle{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    height: fit-content;
+    margin-top: 20px;
+}
 
 .subtitle{
-    margin-top: 20px;
     font-size: 2rem;
+    text-align: center;
 }
 
 .typewriter {
@@ -34,10 +41,10 @@
 }
 
 .text_parent{
-    position: relative;
-    z-index: 2;
-    background-color: rgba(255, 0, 0, 0.108);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
     width: 100vw;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
