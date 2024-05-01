@@ -7,8 +7,8 @@ function Header(){
         <div className={styles.header}>
             <div className={styles.menu}>
                     <Link className={styles.menu_item} to="/">Home</Link>
+                    <Link className={styles.menu_item} to="/about">Sobre</Link>
                     <Link className={styles.menu_item} to="/projects">Projetos</Link>
-                    <Link className={styles.menu_item} to="/about">Sobre Mim</Link>
                     <Link className={styles.menu_item} to="/contact">Contato</Link>
             </div>
         </div>
