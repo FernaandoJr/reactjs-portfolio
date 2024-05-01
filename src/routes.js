@@ -7,7 +7,7 @@ import Contato from './pages/Contato'
 
 function RoutesApp(){
     return(
-        <BrowserRouter basename="/portfolio">
+        <BrowserRouter>
             <Header/>
             <Routes>
                 <Route path='/' element={<Home/>}/>
