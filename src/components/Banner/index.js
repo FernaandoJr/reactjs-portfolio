@@ -25,13 +25,13 @@ function Banner() {
       <div className={styles.text_parent}>
         <h1 className={styles.title}>
           Olá, eu sou o{" "}
-          <span className={`${styles.animated_gradient} ${styles.title}`}>
+          <span className={` ${styles.title}`}>
             Fernando!
           </span>
         </h1>
-        <h3 className={styles.typewriter}>
+        <h3 className={`${styles.typewriter} ${styles.animated_gradient}`}>
           Apaixonado por{" "}
-          <span>
+          <span className={`${styles.typewriter}`}>
             {typewriter_text}
             <Cursor cursorStyle="|" />
           </span>

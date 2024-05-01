@@ -1,12 +1,10 @@
 .container {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   overflow: hidden;
 }
 
-.title {
-    font-size: 3rem;
-}
+
 
 .animated_gradient{
         background: linear-gradient(
@@ -31,20 +29,27 @@
     margin-top: 20px;
 }
 
+.title {
+    font-weight: bold;
+    font-size: 5rem;
+}
+
 .subtitle{
+    font-weight:lighter;
     font-size: 2rem;
     text-align: center;
 }
 
 .typewriter {
-    font-size: 2rem;
+    font-weight: bold;
+    font-size: 3rem;
 }
 
 .text_parent{
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
