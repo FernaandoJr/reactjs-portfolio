@@ -1,7 +1,6 @@
 // import { ReactComponent as SvgLogo } from '../../media/svg/Logo.svg';
 import styles from "./banner.module.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import BannerVideo from "../../media/video/background.mp4";
 
 function Banner() {
   var ocupacao = "Estudante de Análise e Desenvolvimento de Sistemas";
@@ -21,12 +20,11 @@ function Banner() {
   });
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id='home'>
       <div className={styles.text_parent}>
         <h1 className={styles.title}>
           Olá, eu sou o <span className={` ${styles.title}`}>Fernando!</span>
         </h1>
-
         {/* Usando a função de imitar uma máquina de escrever */}
         <h3 className={`${styles.typewriter} `}>
           {" "}
@@ -36,12 +34,9 @@ function Banner() {
             <Cursor cursorStyle="|"/>
           </span>
         </h3>
-
-        <div className={`${styles.container_subtitle}`}>
           <h3 className={`${styles.subtitle}`}>{ocupacao}</h3>
-        </div>
+
       </div>
-      <video src={BannerVideo} autoPlay loop muted className={styles.videobg} />
     </div>
   );
 }
