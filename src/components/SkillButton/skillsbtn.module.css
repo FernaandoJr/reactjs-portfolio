@@ -1,8 +1,22 @@
 .btn{
-    background-color: #2c2c2c;
+    background-color: #242938;
     font-size: 1rem;
     width: fit-content;
-    padding: .4rem;
+    padding: .6rem 1rem .6rem 1rem;
     border-radius: 999px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.img{
+    width: 1.5rem;
+    height: 1.5rem;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 

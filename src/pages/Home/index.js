@@ -2,7 +2,7 @@
 import styles from "./index.module.css";
 import Banner from "../../components/Banner";
 import Header from "../../components/Header";
-import About from "../../assets/About";
+import About from "../../components/About";
 import Projects from "../../components/Projects";
 import Skills from "../../components/Skills";
 

@@ -2,11 +2,14 @@
     display: flex;
     gap: .5rem;
     margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .title_section {
     display: flex;
     align-items: center;
+    flex-direction: row-reverse;
   }
   
   .title_section span {

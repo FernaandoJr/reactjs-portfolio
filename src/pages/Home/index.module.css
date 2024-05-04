@@ -1,5 +1,5 @@
 :root {
-    --topo: url("../../assets/topography.svg");
+    --topo: url("/public/assets/topography.svg");
   }
   
   .topo_bg {
