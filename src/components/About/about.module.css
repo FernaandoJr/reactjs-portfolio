@@ -1,30 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
 
-:root {
-  --topo: url("../../assets/topography.svg");
-}
-
-.container {
-  width: 100%;
-  height: 100vh;
-  background-image: var(--topo);
-  background-repeat: repeat;
-  padding: 1rem;
-}
-
-.parent {
-  max-width: 70vw;
-  border-radius: 13px;
-  /* From https://css.glass */
-  background: rgba(0, 0, 0, 0.207);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(6.1px);
-  border: 1px solid #585858;
-  padding: 2rem 3rem 2rem 3rem;
-}
-
 .title_section {
   display: flex;
   align-items: center;

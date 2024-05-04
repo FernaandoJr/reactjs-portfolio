@@ -1,4 +1,4 @@
-// import { ReactComponent as SvgLogo } from '../../media/svg/Logo.svg';
+
 import styles from "./about.module.css";
 
 function About() {
