@@ -2,19 +2,20 @@
 import styles from "./skills.module.css";
 import SkillButton from "../SkillButton";
 
-
 function Skills() {
   return (
+    <>
+    <div className={styles.title_section}>
+        <h1 className={styles.title}>&lt;Skills/&gt;</h1>
+        <span />
+      </div>
     <div className={styles.container}>
-      <h1>Skills</h1>
       <div className={styles.buttons}>
+      <SkillButton skill="HTML" name="html"/>
       <SkillButton skill="HTML"/>
-      <SkillButton skill="HTML"/>
-      <SkillButton skill="HTML"/>
-      <SkillButton skill="HTML"/>
-
       </div>
     </div>
+    </>
   );
 }
 

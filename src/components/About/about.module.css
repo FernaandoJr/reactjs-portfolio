@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
 
 :root {
   --topo: url("../../assets/topography.svg");
@@ -14,7 +13,7 @@
 }
 
 .parent {
-  width: 100%;
+  max-width: 70vw;
   border-radius: 13px;
   /* From https://css.glass */
   background: rgba(0, 0, 0, 0.207);
@@ -26,39 +25,45 @@
   padding: 2rem 3rem 2rem 3rem;
 }
 
-.title_section{
-    display: flex;
-    align-items: center;
+.title_section {
+  display: flex;
+  align-items: center;
 }
 
-.title_section span{
-    margin: 0 2rem 0 2rem;
-    height: 1px;
-    width: 100%;
-    background-color: #2d2d2d;
+.title_section span {
+  margin: 0 2rem 0 2rem;
+  height: 1px;
+  width: 100%;
+  background-color: #2d2d2d;
 }
 
-.title{
-    font-size: 3rem;
-    font-weight: 900;
-    text-wrap: nowrap;
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+  text-wrap: nowrap;
 }
 
-.container p{
-    font-size: 1.3rem;
-    color: #ababab;
-    text-align: justify;
+.about_text {
+  font-size: 1.3rem;
+  color: #ababab;
+  text-align: justify;
 }
 
-.text_section{
-
+.about_text2 {
+  margin-top: 1.2rem;
+  font-size: 1.3rem;
+  color: #ababab;
+  text-align: justify;
 }
 
-.content{
-    display: flex;
-    gap: 3rem;
+.text_section {
 }
 
-.skills_section{
-    width: 130vw;
+.content {
+  display: flex;
+  gap: 3rem;
+}
+
+.skills_section {
+  width: 130vw;
 }

@@ -1,0 +1,24 @@
+:root {
+    --topo: url("../../assets/topography.svg");
+  }
+  
+  .topo_bg {
+    width: 100%;
+    height: fit-content;
+    background-image: var(--topo);
+    background-repeat: repeat;
+    padding: 1rem;
+  }
+
+  .card {
+    max-width: 70vw;
+    border-radius: 13px;
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.207);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(6.1px);
+    border: 1px solid #585858;
+    padding: 2rem 3rem 2rem 3rem;
+  }

@@ -1,8 +1,23 @@
-.container > h1{
-    margin-bottom: 1rem;
-}
-
 .buttons{
     display: flex;
     gap: .5rem;
+    margin-top: 1rem;
 }
+
+.title_section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .title_section span {
+    margin: 0 2rem 0 2rem;
+    height: 1px;
+    width: 100%;
+    background-color: #2d2d2d;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: 900;
+    text-wrap: nowrap;
+  }
