@@ -3,13 +3,14 @@
 .title_section {
   display: flex;
   align-items: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
 }
 
 .title_section span {
-  margin: 0 2rem 0 2rem;
-  height: 1px;
+  height: 2px;
   width: 100%;
-  background-color: #2d2d2d;
+  background-color: #2e2e2e;
 }
 
 .title {
@@ -31,14 +32,9 @@
   text-align: justify;
 }
 
-.text_section {
-}
 
 .content {
   display: flex;
   gap: 3rem;
-}
-
-.skills_section {
-  width: 130vw;
+  justify-content: space-between;
 }

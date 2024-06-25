@@ -1,22 +1,30 @@
-.btn{
-    background-color: #242938;
-    font-size: 1rem;
-    width: fit-content;
-    padding: .6rem 1rem .6rem 1rem;
-    border-radius: 999px;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-
+.btn {
+  background-color: #1f1f1f;
+  font-size: 1.3rem;
+  width: fit-content;
+  padding:7px 15px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  line-height: 0.2rem;
+  transition: all 0.2s ease 0s;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-.img{
-    width: 1.5rem;
-    height: 1.5rem;
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+.btn:hover {
+  background-color: #2b2b2b;
+  transform: scale(1.02);
 }
 
+.img {
+  width: 1.6rem;
+  height: 1.6rem;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}

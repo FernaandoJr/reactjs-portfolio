@@ -5,28 +5,25 @@ import SkillButton from "../SkillButton";
 function Skills() {
   return (
     <>
-    <div className={styles.title_section}>
-        <h1 className={styles.title}>&lt;Skills/&gt;</h1>
-        <span />
-      </div>
     <div className={styles.container}>
-      <div className={styles.buttons}>
-      <SkillButton skill="HTML" image="html"/>
-      <SkillButton skill="CSS" image="css"/>
-      <SkillButton skill="Javascript" image="javascript"/>
-      <SkillButton skill="NodeJS" image="nodejs"/>
-      <SkillButton skill="Npm" image="npm"/>
-      <SkillButton skill="ReactJS" image="react"/>
-      <SkillButton skill="MySQL" image="mysql"/>
-      <SkillButton skill="PHP" image="php"/>
-      <SkillButton skill="C Language" image="c"/>
-      <SkillButton skill="Python" image="python"/>
-      <SkillButton skill="Notion" image="notion"/>
-      <SkillButton skill="GitHub" image="github"/>
-      <SkillButton skill="Vercel" image="vercel"/>
-      <SkillButton skill="Visual Studio Code" image="vscode"/>
+        <span className={styles.title}># Habilidades</span>
+        <div className={styles.group}>
 
-      </div>
+          <SkillButton image="c" skill="C"/>
+          <SkillButton image="css" skill="CSS"/>
+          <SkillButton image="GitHub" skill="GitHub"/>
+          <SkillButton image="html" skill="HTML"/>
+          <SkillButton image="Javascript" skill="Javascript"/>
+          <SkillButton image="MySQL" skill="MySQL"/>
+          <SkillButton image="NodeJS" skill="NodeJS"/>
+          <SkillButton image="Notion" skill="Notion"/>
+          <SkillButton image="Npm" skill="Npm"/>
+          <SkillButton image="php" skill="PHP"/>
+          <SkillButton image="Python" skill="Python"/>
+          <SkillButton image="React" skill="React"/>
+          <SkillButton image="Vercel" skill="Vercel"/>
+          <SkillButton image="VSCode" skill="Vscode"/>
+        </div>
     </div>
     </>
   );

@@ -1,6 +1,6 @@
 .header{
     z-index: 999 !important;
-    position: sticky;
+    position: fixed;
     display: flex;
     padding: 15px;
     align-items: center;

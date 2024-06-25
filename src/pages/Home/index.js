@@ -4,7 +4,6 @@ import Banner from "../../components/Banner";
 import Header from "../../components/Header";
 import About from "../../components/About";
 import Projects from "../../components/Projects";
-import Skills from "../../components/Skills";
 
 function Home() {
   return (
@@ -14,12 +13,11 @@ function Home() {
       <div className={styles.topo_bg}>
         <div className={styles.card}>
           <About />
-        </div>
-        <div className={styles.card}>
-          <Skills />
+          
+          <Projects />
         </div>
       </div>
-      <Projects />
+      
     </>
   );
 }
