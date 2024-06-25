@@ -11,18 +11,18 @@ function Skills() {
 
           <SkillButton image="c" skill="C"/>
           <SkillButton image="css" skill="CSS"/>
-          <SkillButton image="GitHub" skill="GitHub"/>
+          <SkillButton image="gitHub" skill="GitHub"/>
           <SkillButton image="html" skill="HTML"/>
-          <SkillButton image="Javascript" skill="Javascript"/>
-          <SkillButton image="MySQL" skill="MySQL"/>
-          <SkillButton image="NodeJS" skill="NodeJS"/>
-          <SkillButton image="Notion" skill="Notion"/>
-          <SkillButton image="Npm" skill="Npm"/>
+          <SkillButton image="javascript" skill="Javascript"/>
+          <SkillButton image="mysql" skill="MySQL"/>
+          <SkillButton image="nodejs" skill="NodeJS"/>
+          <SkillButton image="notion" skill="Notion"/>
+          <SkillButton image="npm" skill="Npm"/>
           <SkillButton image="php" skill="PHP"/>
-          <SkillButton image="Python" skill="Python"/>
-          <SkillButton image="React" skill="React"/>
-          <SkillButton image="Vercel" skill="Vercel"/>
-          <SkillButton image="VSCode" skill="Vscode"/>
+          <SkillButton image="python" skill="Python"/>
+          <SkillButton image="react" skill="React"/>
+          <SkillButton image="vercel" skill="Vercel"/>
+          <SkillButton image="vscode" skill="Vscode"/>
         </div>
     </div>
     </>
