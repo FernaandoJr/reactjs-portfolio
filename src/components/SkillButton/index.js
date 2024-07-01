@@ -1,10 +1,11 @@
 import styles from "./skillsbtn.module.css";
+import { Icon } from '@iconify-icon/react';
 
 function SkillButton(props) {
   return (
     <>
       <div className={styles.btn}>
-        <img src={`/assets/logos/${props.image}.png`} className={styles.img} alt=""/>
+        <Icon icon={`skill-icons:${props.icon}`} className={styles.icon}/>
         {props.skill}
       </div>
     </>

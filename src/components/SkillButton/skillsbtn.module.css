@@ -19,12 +19,6 @@
   transform: scale(1.02);
 }
 
-.img {
-  width: 1.6rem;
-  height: 1.6rem;
-  -webkit-user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
+.icon {
+  font-size: 1.6rem;
 }

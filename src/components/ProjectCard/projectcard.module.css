@@ -54,20 +54,15 @@
   justify-content: center;
 }
 
-.content{
-}
-
 
 .desc{
   width: 100%;
   margin-top: 1rem;
   font-size: 1.2rem;
-  
 }
 
-.title_section img{
-  aspect-ratio: 1;
-  height: 2rem;
+.teste{
+  font-size: 2rem;
 }
 
 .icons span{
@@ -82,7 +77,7 @@
   flex-direction: row;
 }
 
-a{
+.icons a{
   transition: all 0.2s ease 0s;
 }
 

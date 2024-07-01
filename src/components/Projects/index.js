@@ -4,6 +4,9 @@ import ProjectsCard from "../ProjectCard";
 
 function Projects() {
   return (
+    <>
+      <div id="projects" className={styles.anchor}></div>
+    
     <div className={styles.container}>
       <div className={styles.title_section}>
         <h1 className={styles.title}>&lt;Projetos/&gt;</h1>
@@ -14,7 +17,7 @@ function Projects() {
         <ProjectsCard
           title="Portifólio"
           image="banner"
-          desc="Site pessoal criado usando ReactJS com o propósito de aprimorar as minhas habilidades de React e mostrar meus projetos atuais, qualificações, habilidades etc."
+          desc="Site pessoal criado com React usando CRA com o propósito de aprimorar as minhas habilidades de React e mostrar meus projetos atuais, qualificações, habilidades etc."
           repo="https://github.com/FernaandoJr/react-portfolio"
           link="https://fernaandojr.vercel.app/"
         />
@@ -34,6 +37,7 @@ function Projects() {
         />
       </div>
     </div>
+    </>
   );
 }
 

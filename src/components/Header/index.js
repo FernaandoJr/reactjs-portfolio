@@ -9,6 +9,7 @@ function Header(){
                     <Link className={styles.menu_item} smooth to="#home">Home</Link>
                     <Link className={styles.menu_item} smooth to="#about">Sobre</Link>
                     <Link className={styles.menu_item} smooth to="#projects">Projetos</Link>
+                    <Link className={styles.menu_item} smooth to="#education">Formação</Link>
                     <Link className={styles.menu_item} smooth to="#contact">Contato</Link>
             </div>
         </div>
