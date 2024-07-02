@@ -1,10 +1,10 @@
 import RoutesApp from "./routes";
-import { SpeedInsights } from '@vercel/speed-insights/react';
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
     <>
-      <RoutesApp/>
+      <RoutesApp />
       <SpeedInsights />
     </>
   );

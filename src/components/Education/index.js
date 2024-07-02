@@ -12,7 +12,6 @@ function Education() {
           mode="VERTICAL_ALTERNATING"
           disableToolbar
           cardHeight="150"
-          
           theme={{
             primary: "#b520fe",
             secondary: "black",

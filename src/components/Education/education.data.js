@@ -13,9 +13,9 @@ const items = [
   },
   {
     title: "2019 - 2021",
-    cardTitle: "Hardware e Redes InfoFixPlus",
+    cardTitle: "Hardware e Redes",
     cardSubtitle:
-      "Curso de Desenvolvimento de Sistemas integrado ao Ensino Médio feito na ETEC Pedro Fereira Alves - Mogi Mirim",
+      "Curso de Hardware e Redes feito na InfoFixPlus - Mogi Mirim",
   },
 ];
 

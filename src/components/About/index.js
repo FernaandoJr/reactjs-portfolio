@@ -1,7 +1,6 @@
 import styles from "./about.module.css";
 import Skills from "../Skills";
 
-
 function About() {
   return (
     <>
@@ -27,7 +26,7 @@ function About() {
             desenvolvimento.
           </p>
         </div>
-        <Skills/>
+        <Skills />
       </div>
     </>
   );
