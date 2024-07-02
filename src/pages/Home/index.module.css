@@ -2,6 +2,12 @@
     --topo: url("/public/assets/topography.svg");
   }
   
+  .linha{
+    width: 100%;
+    height: 1px;
+    background-color: transparent;
+  }
+
   .topo_bg {
     width: 100%;
     height: fit-content;

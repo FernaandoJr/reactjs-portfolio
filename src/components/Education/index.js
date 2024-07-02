@@ -6,6 +6,7 @@ function Education() {
   return (
     <>
       <div className={styles.container}>
+        
         <p className={styles.title}>&lt;Formação e Cursos/&gt;</p>
         <Chrono
           items={items}

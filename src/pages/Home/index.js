@@ -19,7 +19,9 @@ function Home() {
           <Projects />
         </div>
       </div>
+      <div className={styles.linha} id="education"></div>
       <Education />
+      <div className={styles.linha} id="contact"></div>
       <Contact />
       <Footer />
     </>
