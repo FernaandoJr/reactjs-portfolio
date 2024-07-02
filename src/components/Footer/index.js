@@ -35,7 +35,7 @@ function Footer() {
               <a target="blank" href="https://linkedin.com/in/fernaandojr/"><li>LinkedIn</li></a>
               <a target="blank" href="https://github.com/fernaandojr"><li>Github</li></a>
               <a target="blank" href="https://instagram.com/fernaando.divino/"><li>Instagram</li></a>
-              <a href="#"><li>Email</li></a>
+              <a href="a"><li>Email</li></a>
             </ul>
           </div>
         </div>
